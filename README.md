@@ -1,10 +1,10 @@
-# 🎯 Intervue
+# Intervue
 
 An AI-powered interview preparation platform that helps you ace technical interviews through realistic mock interviews, flashcard study sessions, and voice-interactive coding practice.
 
-## ✨ Features
+## Features
 
-### 🤖 Mock Technical Interviews
+### Mock Technical Interviews
 - **AI-powered interviewer** that asks realistic technical questions
 - **Voice interaction** - speak your answers naturally or type responses
 - **Live coding environment** with Monaco editor
@@ -12,26 +12,26 @@ An AI-powered interview preparation platform that helps you ace technical interv
 - **Multiple difficulty levels** from easy to hard
 - **Various question categories** including algorithms, data structures, system design
 
-### 📚 Flashcard Learning System
+### Flashcard Learning System
 - **AI-generated flashcards** for interview preparation
 - **Behavioral and technical questions** using STAR method
 - **Personal flashcard creation** and management
 - **Progress tracking** across study sessions
 - **Firebase integration** for cloud storage
 
-### 🎙️ Voice-Powered Features
+###  Voice-Powered Features
 - **Speech-to-text** for natural conversation flow
 - **Azure Speech Services** integration
 - **Audio analysis** with real-time feedback
 - **Voice recordings** for practice review
 
-### 🔧 Advanced Coding Environment
+### Advanced Coding Environment
 - **Monaco code editor** with syntax highlighting
 - **Multiple programming languages** support
 - **Auto-completion** and error detection
 - **Code execution** and testing capabilities
 
-## 🏗️ Architecture
+## Architecture
 
 This is a modern full-stack application built with:
 
@@ -56,7 +56,7 @@ This is a modern full-stack application built with:
 - **OpenAI API** for AI-powered responses
 - **Azure Cognitive Services** for speech and text analytics
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Node.js** 18+ and npm
@@ -135,7 +135,7 @@ Intervue/
 └── README.md              # This file
 ```
 
-## 🔧 Available Scripts
+## Available Scripts
 
 ### Root Level
 - `npm run dev` - Start both frontend and backend
@@ -154,7 +154,7 @@ Intervue/
 - `python main.py` - Start FastAPI server
 - `pip install -r requirements.txt` - Install dependencies
 
-## 🔑 Environment Variables
+## Environment Variables
 
 ### Frontend (`.env`)
 ```bash
@@ -176,7 +176,7 @@ OPENAI_API_KEY=your_openai_api_key
 CORS_ORIGINS=http://localhost:5173
 ```
 
-## 🌐 API Documentation
+## API Documentation
 
 When running the backend, visit:
 - **Interactive API Docs**: http://localhost:8000/docs
@@ -188,16 +188,16 @@ When running the backend, visit:
 - `POST /api/v1/chat/voice` - Process voice message
 - `GET /api/v1/chat/conversation/{session_id}` - Get conversation history
 
-## 🔐 Security Features
+## Security Features
 
-- ✅ **Environment variables** for all sensitive data
-- ✅ **No hardcoded API keys** in source code
-- ✅ **Comprehensive .gitignore** for secrets
-- ✅ **CORS protection** configured
-- ✅ **Input validation** with Pydantic schemas
-- ✅ **Secure file permissions** on environment files
+- **Environment variables** for all sensitive data
+- **No hardcoded API keys** in source code
+- **Comprehensive .gitignore** for secrets
+- **CORS protection** configured
+- **Input validation** with Pydantic schemas
+- **Secure file permissions** on environment files
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -205,18 +205,5 @@ When running the backend, visit:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **OpenAI** for GPT API
-- **Azure** for Speech Services
-- **Firebase** for authentication and storage
-- **Supabase** for database services
-- **Vite** and **FastAPI** teams for excellent frameworks
-
----
-
-**Built with ❤️ for helping developers ace their technical interviews**
+## Disclaimer
+**This project is still in progress**
